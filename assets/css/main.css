@@ -1,0 +1,55 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	display: flex;
+}
+
+div{
+	box-sizing: border-box;
+}
+
+a{
+	color: inherit;
+}
+
+a.plain{
+	text-decoration: none;
+}
+
+a.plain:hover{
+	text-decoration: underline;
+}
+
+.container{
+	padding: 30px 15vw;
+	flex:1;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+}
+
+.column{
+	display: flex;
+	flex-direction: column;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.block-center{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centered{
+	justify-content: center;
+	align-content: center;
+}
